@@ -1,0 +1,16 @@
+<table id="myTable">
+  <tr class="header">
+    <th>Numer kolczyka</th>
+    <th>Nazwa</th>
+    <th>Data Urodzenia</th>
+    <th>Data Zacielenia</th>
+    <th>Data Sprzedaży</th>
+  </tr>
+  <tr contenteditable="true" class="krowy" *ngFor="let krowy of krowy"> 
+    <td>{{krowy.numerKolczyka}}</td>
+    <td>{{krowy.nazwa}}</td>
+    <td>{{krowy.dataUrodzenia}}</td>
+    <td>{{krowy.dataZacielenia}}</td>
+    <td>{{krowy.dataSprzedazy}}</td>
+  </tr>
+</table>
